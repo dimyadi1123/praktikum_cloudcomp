@@ -27,7 +27,7 @@
       }
 
       img {
-        border-radius: 75%;
+        border-radius: 12.5%;
         width: 200px;
         height: 200px;
         margin-bottom: 20px;
@@ -36,11 +36,24 @@
       .icon-links {
         display: flex;
         gap: 20px;
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.2
+        ); /* Warna latar belakang agak transparan */
+        padding: 10px;
+        border-radius: 10px;
       }
 
       .icon-links a {
         font-size: 24px;
         color: white;
+        text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+      }
+
+      .icon-links a:hover {
+        color: goldenrod; /* Mengubah warna saat dihover */
       }
     </style>
   </head>
@@ -51,15 +64,13 @@
       <h2>Dimyadi Suhartono</h2>
       <p>Hobi: Bermain Dota, Voli, dan Berpetualang</p>
       <div class="icon-links">
-        <a href="https://github.com/namagithubanda" target="_blank"
-          ><i class="fab fa-github"></i
-        ></a>
+        <a href="https://github.com/namagithubanda" target="_blank">GitHub</a>
         <a href="https://www.kaggle.com/namakaggleanda" target="_blank"
-          ><i class="fab fa-kaggle"></i
-        ></a>
+          >Kaggle</a
+        >
         <a href="https://www.instagram.com/namainstagramanda" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
+          >Instagram</a
+        >
       </div>
     </main>
   </body>
